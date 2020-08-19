@@ -1,0 +1,127 @@
+html body #mainContent {
+  height: 100vh;
+}
+
+#uploadSquare {
+  background: gray;
+  width: 600px;
+  height: 300px;
+  padding: 1em;
+  border-radius: .5em;
+  color: white;
+}
+
+.successGlow {
+  -webkit-animation: successGlow 2s;
+          animation: successGlow 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes successGlow {
+  30% {
+    -webkit-box-shadow: 0px 0px 100px 50px lime;
+            box-shadow: 0px 0px 100px 50px lime;
+  }
+  70% {
+    -webkit-box-shadow: 0px 0px 100px 50px lime;
+            box-shadow: 0px 0px 100px 50px lime;
+  }
+}
+
+@keyframes successGlow {
+  30% {
+    -webkit-box-shadow: 0px 0px 100px 50px lime;
+            box-shadow: 0px 0px 100px 50px lime;
+  }
+  70% {
+    -webkit-box-shadow: 0px 0px 100px 50px lime;
+            box-shadow: 0px 0px 100px 50px lime;
+  }
+}
+
+.failureGlow {
+  -webkit-animation: failureGlow 1s;
+          animation: failureGlow 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes failureGlow {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  25% {
+    -webkit-transform: translate(5px, 0px);
+            transform: translate(5px, 0px);
+  }
+  30% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-box-shadow: 0px 0px 100px 50px red;
+            box-shadow: 0px 0px 100px 50px red;
+  }
+  40% {
+    -webkit-transform: translate(-5px, 0px);
+            transform: translate(-5px, 0px);
+  }
+  60% {
+    -webkit-transform: translate(5px, 0px);
+            transform: translate(5px, 0px);
+  }
+  70% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-box-shadow: 0px 0px 100px 50px red;
+            box-shadow: 0px 0px 100px 50px red;
+  }
+  75% {
+    -webkit-transform: translate(-5px, 0px);
+            transform: translate(-5px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+
+@keyframes failureGlow {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  25% {
+    -webkit-transform: translate(5px, 0px);
+            transform: translate(5px, 0px);
+  }
+  30% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-box-shadow: 0px 0px 100px 50px red;
+            box-shadow: 0px 0px 100px 50px red;
+  }
+  40% {
+    -webkit-transform: translate(-5px, 0px);
+            transform: translate(-5px, 0px);
+  }
+  60% {
+    -webkit-transform: translate(5px, 0px);
+            transform: translate(5px, 0px);
+  }
+  70% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-box-shadow: 0px 0px 100px 50px red;
+            box-shadow: 0px 0px 100px 50px red;
+  }
+  75% {
+    -webkit-transform: translate(-5px, 0px);
+            transform: translate(-5px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+/*# sourceMappingURL=index.css.map */
