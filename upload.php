@@ -13,4 +13,7 @@ if (!empty($_FILES)) {
 
     move_uploaded_file($tempFile, $targetFile); //6
 
+    sleep(1);
+    shell_exec('print.sh');
+
 }
