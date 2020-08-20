@@ -24,7 +24,7 @@
     <div id="mainContent" class="container d-flex flex-column">
         <div class="jumbotron bg-secondary">
             <div class="d-flex justify-content-center">
-                <h1>Fax-Me</h1>
+                <h1 style="color: white">Fax-Me</h1>
             </div>
         </div>
 
