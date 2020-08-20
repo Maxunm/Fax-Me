@@ -36,14 +36,14 @@
 
             <footer class="container bg-secondary d-flex">
                 <div id="footerContent" class="d-flex justify-content-between flex-grow-1">
-                    <a href="https://github.com/Maxunm/Fax-Me">
+                    <a href="https://www.rumel.io/">
                         <span class="d-flex align-items-center">
                             <span class="material-icons">home</span>
                             <span>Back to website</span>
                         </span>
                     </a>
 
-                    <a href="https://www.rumel.io/">
+                    <a href="https://github.com/Maxunm/Fax-Me">
                         <span class="d-flex align-items-center">
                             <span class="material-icons">code</span>
                             <span>Repository</span>
