@@ -12,6 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js"></script>
 
@@ -25,10 +27,30 @@
             <h5>An internet portal to my printer</h5>
         </div>
 
-        <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center mb-3">
-            <div id="uploadSquare" class="container d-flex flex-column align-items-center justify-content-center">
-                <h5>Drag or Click Here to Upload Files</h5>
+        <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+            <div class="container flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+                <div id="uploadSquare" class=" d-flex flex-column align-items-center justify-content-center p-5">
+                    <h5>Drag or Click Here to Upload Files</h5>
+                </div>
             </div>
+
+            <footer class="container bg-secondary d-flex">
+                <div id="footerContent" class="d-flex justify-content-between flex-grow-1">
+                    <a href="https://github.com/Maxunm/Fax-Me">
+                        <span class="d-flex align-items-center">
+                            <span class="material-icons">home</span>
+                            <span>Back to website</span>
+                        </span>
+                    </a>
+
+                    <a href="https://www.rumel.io/">
+                        <span class="d-flex align-items-center">
+                            <span class="material-icons">code</span>
+                            <span>Repository</span>
+                        </span>
+                    </a>
+                </div>
+            </footer>
         </div>
     </div>
     <?php
