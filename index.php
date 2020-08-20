@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <footer class="container bg-secondary d-flex">
+            <footer class="container bg-dark d-flex">
                 <div id="footerContent" class="d-flex justify-content-between flex-grow-1">
                     <a href="https://www.rumel.io/">
                         <span class="d-flex align-items-center">
