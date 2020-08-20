@@ -21,22 +21,20 @@
 <body onload="onload()">
     <div id="mainContent" class="container d-flex flex-column">
         <div class="jumbotron">
-            <h1>Page Header</h1>
+            <h1>Fax-Me</h1>
+            <h5>An internet portal to my printer</h5>
         </div>
 
-        <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-            <div id="uploadSquare" class="d-flex flex-column align-items-center justify-content-center">
-                <h5>Drag Files Here for Upload</h5>
+        <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center mb-3">
+            <div id="uploadSquare" class="container d-flex flex-column align-items-center justify-content-center">
+                <h5>Drag or Click Here to Upload Files</h5>
             </div>
         </div>
     </div>
     <?php
-        include("successToast.html");
-        include("failureToast.html");
+    include("successToast.html");
+    include("failureToast.html");
     ?>
-    <script>
-        
-</script>
 </body>
 
 </html>
