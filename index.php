@@ -22,9 +22,10 @@
 
 <body onload="onload()">
     <div id="mainContent" class="container d-flex flex-column">
-        <div class="jumbotron">
-            <h1>Fax-Me</h1>
-            <h5>An internet portal to my printer</h5>
+        <div class="jumbotron bg-secondary">
+            <div class="d-flex justify-content-center">
+                <h1>Fax-Me</h1>
+            </div>
         </div>
 
         <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
@@ -34,7 +35,7 @@
                 </div>
             </div>
 
-            <footer class="container bg-dark d-flex">
+            <footer class="container bg-secondary d-flex">
                 <div id="footerContent" class="d-flex justify-content-between flex-grow-1">
                     <a href="https://www.rumel.io/">
                         <span class="d-flex align-items-center">
