@@ -31,7 +31,7 @@
         <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
             <div class="container flex-grow-1 d-flex flex-column align-items-center justify-content-center">
                 <div id="uploadSquare" class=" d-flex flex-column align-items-center justify-content-center p-5">
-                    <h5 style="margin-bottom: 0 !important">Drag or Click Here to Upload Files</h5>
+                    <h5 style="margin-bottom: 0 !important; pointer-events: none">Drag or Click Here to Upload Files</h5>
                 </div>
             </div>
 
